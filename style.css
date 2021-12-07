@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Genos:wght@300&family=Montserrat:wght@600&family=Nunito+Sans:wght@400;900&family=Open+Sans:wght@300&family=Poppins:wght@400;700&family=Raleway&family=Roboto:wght@400;500&family=Shippori+Antique+B1&display=swap');
+
+body,h1,h2,h3,h4,h5,h6,div,p,div,ul{
+	padding:0;
+	margin:0;
+}
+.container {
+	max-width: 1920px; 
+    max-height: 960px;
+} 
+section{
+    background-color:#F3F3F3;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+   filter: drop-shadow(0px 5.40459px 32.4276px #453F3F); 
+   width:740px;
+   height:740px;
+}
+.fm__episodes{
+   background: #FFFFFF;
+    box-shadow: 0px 5px 27px #E8EAEF;
+    border-radius: 0 43px 43px 0;
+    padding: 80px 110px 0 75px;
+}
+h2{
+    font-family: Nunito Sans;
+    font-weight: 900;
+    font-size: 22px;
+    line-height: 29px;
+    letter-spacing: 0.1em;
+    color: #A7A7A7;
+    margin-bottom: 55px;
+}
+ul{
+    list-style-type:none; /*Убираем маркеры*/
+}
+
+li{
+    margin-bottom:30px;
+    font-family: Nunito Sans;
+    font-size: 33px;
+    line-height: 44px;
+    color: #4E4E4E;
+    display: flex;
+    align-items: center;
+}
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+} 
+.custom-checkbox+label::before {
+    content: '';
+    width: 55px;
+    height: 55px;
+    border: 2.7023px solid #C9CDD1;
+    border-radius: 16px;
+    margin-right: 27px; 
+}
+.custom-checkbox:checked+label::before {
+    background-image: url(STARTER-FILES/images/vector.svg);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+
